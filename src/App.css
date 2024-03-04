@@ -1,0 +1,326 @@
+.main{
+    padding: 20px;
+    background-color: white;
+    max-width: 800px;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 20px;
+    border-radius: 10px;
+    box-shadow: 5px;
+}
+.container{
+    padding-left: 5%;
+    padding-right: 5%;
+}
+.header{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+ul{
+    list-style: none;
+}
+.header ul li{
+    margin: 2px;
+}
+.header ul li button{
+    border: 1px solid white;
+    width: 80px;
+    height: 30px;
+    border-radius: 5px;
+}
+.header ul li button:hover{
+    background-color: white;
+}
+.btn-print{
+    background-color: gray;
+    color: white;
+}
+.btn-print:hover{
+    color: gray;
+    border: 1px solid gray;
+}
+.btn-download{
+    background-color:rgba(0, 0, 255, 0.507);
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 2px;
+    margin-left: 5%;
+}
+.btn-download:hover{
+    color: rgba(0, 0, 255, 0.507);
+    border: 2px solid rgba(0, 0, 255, 0.507);
+    background-color: white;
+    font-weight: bold;
+}
+.btn-send{
+    background-color:rgb(60, 199, 60);
+    color: white;
+}
+.btn-send:hover{
+    color: rgb(60, 199, 60);
+    border: 1px solid rgb(60, 199, 60);
+}
+p{
+    line-height: 3px;
+}
+
+.btnlist{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    list-style-type: none;
+}
+
+.yourdetails{
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    justify-content: end;
+}
+
+.header h1{
+    margin-bottom: 3px;
+    font-size: 36px;
+}
+
+.detailname{
+    font-weight: bold;
+    font-size: 28px;
+}
+
+.article{
+    margin-top: 3%;
+    margin-bottom: 3%;
+    display: flex;
+    align-items: end;
+    justify-content: end;
+}
+.article ul li{
+    padding: 2px;
+}
+
+.clientdet{
+    margin-top: 5%;
+}
+
+span{
+    font-weight: bold;
+}
+
+.table{
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.note{
+    margin-bottom: 5%;
+    margin-top: 10%;
+}
+.note p{
+    text-align: justify;
+}
+.mainfooter{
+    border-top: 2px solid rgba(128, 128, 128, 0.308);
+    padding-top: 5px;
+}
+.footer{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer li{
+    margin: 0.5rem 0.2rem;
+}
+
+.preview{
+    background-color: rgba(0, 0, 255, 0.507);
+    padding-top: 2%;
+    padding-bottom: 2%;
+    padding-left: 5%;
+    padding-right: 5%;
+    border-radius: 5px;
+    box-shadow: 5px;
+    border: 2px;
+    color: white;
+    font-weight: bold;
+    margin-top: 5%;
+}
+
+.preview:hover{
+    background-color: white;
+    color:  rgba(0, 0, 255, 0.507);
+    font-weight: bolder;
+    transition: all;
+    transition-duration: 300ms;
+    border: 2px solid rgba(0, 0, 255, 0.507);
+}
+.previewedit{
+    background-color: rgba(0, 0, 255, 0.507);
+    padding-top: 2%;
+    padding-bottom: 2%;
+    padding-left: 5%;
+    padding-right: 5%;
+    border-radius: 5px;
+    box-shadow: 5px;
+    border: 2px;
+    color: white;
+    font-weight: bold;
+    margin-top: 5%;
+    margin-left: 5%;
+}
+.previewedit:hover{
+    background-color: white;
+    color:  rgba(0, 0, 255, 0.507);
+    font-weight: bolder;
+    transition: all;
+    transition-duration: 300ms;
+    border: 2px solid rgba(0, 0, 255, 0.507);
+}
+.previewfield{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+input, textarea{
+    background-color: #f1f1f1;
+    padding:0.5rem;
+    border-radius: 0.2rem;
+    margin-bottom: 2rem;
+    color: #616161;
+    border: none;
+}
+label{
+    margin-bottom: 0.3rem;
+    font-size: 1rem;
+    font-weight: 600;
+    color: #112827;
+}
+
+.articlenanda{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 20px;
+}
+.articlenanda div{
+    display: flex;
+    flex-direction: column;
+}
+.articlenanda2{
+    display: grid;
+    grid-template-columns: 0.5fr 0.5fr 0.5fr;
+    grid-column-gap: 20px;
+}
+.articlenanda2 div{
+    display: flex;
+    flex-direction: column;
+}
+
+.articleclient{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 20px;
+    margin-top: 40px;
+}
+.articleclient div{
+    display: flex;
+    flex-direction: column;
+}
+
+table{
+    width: 100%;
+    margin-bottom: 10%;
+}
+table thead tr{
+    background-color: rgba(128, 128, 128, 0.199);
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+.item{
+    display: grid;
+    grid-template-columns: 0.5fr 0.5fr 0.5fr;
+    grid-column-gap: 20px;
+}
+.description1{
+    display: flex;
+    flex-direction: column;
+    margin-top: 5%;
+}
+.description{
+    display: flex;
+    flex-direction: column;
+}
+.submitbtn{
+    background-color: rgba(0, 0, 255, 0.507);
+    padding-top: 2%;
+    padding-bottom: 2%;
+    padding-left: 5%;
+    padding-right: 5%;
+    border-radius: 5px;
+    box-shadow: 5px;
+    border: 2px;
+    color: white;
+    font-weight: bold;
+    margin-bottom: 5%;
+}
+.deletebtn{
+    border: none;
+    color:  rgba(0, 0, 255, 0.507);
+    background-color: transparent;
+    font-size: larger;
+}
+
+.editbtn{
+    border: none;
+    color:  rgba(0, 255, 34, 0.507);
+    background-color: transparent;
+    font-size: larger;
+}
+.totalh2{
+    color: rgba(34, 34, 34, 0.801);
+    font-size: large;
+    display: flex;
+    align-items: end;
+    justify-content: end;
+}
+
+@media (max-width:768px){
+    .main{
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    .header{
+        display: block;
+    }
+    .header h1{
+        text-align: center;
+    }
+    .articlenanda{
+        display: block;
+    }
+    .articlenanda2{
+        display: block;
+    }
+
+    .articleclient{
+        display: block;
+        margin-top: 0;
+    }
+    .articlenanda3{
+        display: block;
+        margin-top: 0;
+    }
+    .item{
+        display: block;
+    }
+}
